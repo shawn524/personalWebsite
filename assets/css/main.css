@@ -61,6 +61,11 @@ html {
 	padding-left: 20px;
 }
 
+ul {
+  list-style: circle inside; 
+  font-weight: 300;
+}
+
 /* Buttons */
 .button {
   display: inline-block;
