@@ -4,27 +4,38 @@
     <title>shawnHanna</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   </head>
   <body>
     <div class="container divfade">
-      <div id="about">
-        <h2>About me</h2>
-        <hr>
-        <p id="greeting">Hows it going</p>
-        <p id="name"> I'm Shawn.</p>
-        <ul>
-          <li>Aspiring Developer</li>
-          <li>Giant nerd</li>
-          <li>Floating through space</li>
-        </ul>
-        <a class="button left" href="https://twitter.com/RighPOP" target="_blank">Twitter</a>
-        <a class="button right" href="https://github.com/shawn524" target="_blank">GitHub</a>
+      <img id="face" src="assets/img/closed.png" href="#animatedModal">
+
+      <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-animatedModal"> 
+          CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+          <h2>About me</h2>
+          <hr>
+          <p id="greeting">Hows it going</p>
+          <p id="name"> I'm Shawn.</p>
+          <ul>
+            <li>Aspiring Developer</li>
+            <li>Giant nerd</li>
+            <li>Floating through space</li>
+          </ul>
+          <a class="button left" href="https://twitter.com/RighPOP" target="_blank">Twitter</a>
+          <a class="button right" href="https://github.com/shawn524" target="_blank">GitHub</a>
+        </div>
       </div>
-      <img id="face" src="assets/img/closed.png">
+
     </div>
     <div class="bgImage" id="bgImage"></div>
 
     <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/animatedModal.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
