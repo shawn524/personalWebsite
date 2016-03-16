@@ -1,5 +1,26 @@
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: auto 2em;
+  text-align: center;
+}
+
+#face {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px auto;
 }
 
 .bgImage {
@@ -18,49 +39,39 @@ html {
   -ms-filter: blur(5px);
 }
 
-.container {
-	width: 100%;
-	position: relative;
-}
-
-#face {
-	margin: 0 auto;
-	display: block;
-}
-
 /* About */
 #about {
-	border: white solid 1px;
-	width: 20%;
-	height: 60%;
-	position: absolute;
-	left: 40%;
-	bottom: 200px;
-	background-image: linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
-	background-image: -moz-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
-	background-image: -webkit-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
-	background-image: -ms-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
+  border: white solid 1px;
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  left: 40%;
+  bottom: 200px;
+  background-image: linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
+  background-image: -moz-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
+  background-image: -webkit-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
+  background-image: -ms-linear-gradient(top, rgba(189, 189, 189, 0.5), rgba(189, 189, 189, 0.5));
 }
 
 /*#BDBDBD #EEEEEE*/
 
 #about > h2 {
-	color: #212121;
-	font-weight: 700;
-	text-align: center;
+  color: #212121;
+  font-weight: 700;
+  text-align: center;
 }
 
 #about > hr {
-	color: #757575;
-	width: 80%;
+  color: #757575;
+  width: 80%;
 }
 
 #about > p {
-	color: #212121;
-	font-weight: 300;
-	font-size: 1.3em;
-	padding: 0 20px;
-	margin: 0;
+  color: #212121;
+  font-weight: 300;
+  font-size: 1.3em;
+  padding: 0 20px;
+  margin: 0;
 }
 
 ul {
@@ -91,25 +102,25 @@ ul {
 }
 
 .left {
-	float: left;
-	margin-left: 20px;
+  float: left;
+  margin-left: 20px;
 }
 
 .right {
-	float: right;
-	margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
 /* Trying to figure out media queries */
 /*@media screen and (max-width: 700px) {
-	#about {
-		width: 60%;
-		left: 20%;
-		bottom: 100px;
-	}
+#about {
+width: 60%;
+left: 20%;
+bottom: 100px;
+}
 
-	#face {
-		height: 80%;
-		width: 80%;
-	}
+#face {
+height: 80%;
+width: 80%;
+}
 }*/
